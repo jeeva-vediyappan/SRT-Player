@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'io.github.thibaultbee.srtplayer'
+    namespace 'com.jcode.srtplayer'
     compileSdk 35
 
     defaultConfig {
-        applicationId "io.github.thibaultbee.srtplayer"
+        applicationId "com.jcode.srtplayer"
         minSdk 21
         targetSdk 35
         versionCode 1
