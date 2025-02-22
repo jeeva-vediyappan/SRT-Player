@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         get() = PreferenceManager.getDefaultSharedPreferences(this)
             .getString(
                 getString(R.string.srt_endpoint_key),
-                "srt://cloudcdn.in:2000?streamid=#!::r=livetv/DesiTashan,m=request" // @URL set Here
+                "srt://srt://ip.of.my.computer:9998?streamid=@streamid" // @URL set Here
             )
 
     private val passphrase: String?
